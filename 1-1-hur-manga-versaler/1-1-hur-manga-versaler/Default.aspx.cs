@@ -17,8 +17,15 @@ namespace _1_1_hur_manga_versaler
 
         protected void CountUppercaseButton_Click(object sender, EventArgs e)
         {
-            int count = TextAnalyzer.GetNumberOfCapitals(CountUppercaseTextBox.Text);
-            Result.Text += count.ToString();
+            if (!String.IsNullOrWhiteSpace(CountUppercaseTextBox.Text))
+            {
+                int count = TextAnalyzer.GetNumberOfCapitals(CountUppercaseTextBox.Text);
+
+                CountUppercaseTextBox.Enabled = false;
+                CountUppercaseButton.Text = "Töm";
+
+                Result.Text += count.ToString(); 
+            }
         }
     }
 }
