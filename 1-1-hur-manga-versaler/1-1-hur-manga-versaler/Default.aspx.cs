@@ -15,10 +15,10 @@ namespace _1_1_hur_manga_versaler
 
         }
 
-        protected void Button_Click(object sender, EventArgs e)
+        protected void CountUppercaseButton_Click(object sender, EventArgs e)
         {
-            int count = TextAnalyzer.GetNumberOfCapitals(TextBox.Text);
-            Label.Text += count.ToString();
+            int count = TextAnalyzer.GetNumberOfCapitals(CountUppercaseTextBox.Text);
+            Result.Text += count.ToString();
         }
     }
 }

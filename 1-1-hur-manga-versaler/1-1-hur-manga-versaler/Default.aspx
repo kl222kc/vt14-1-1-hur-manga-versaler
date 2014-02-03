@@ -5,20 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="~/Content/site.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="CountUppercaseForm" runat="server">
     <div>
-        <p>
-            <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            <asp:Label ID="Label" runat="server">Antal versaler: </asp:Label>
-        </p>
-        <p>
-            <asp:Button ID="Button" runat="server" Text="Button" OnClick="Button_Click" />
-        </p>
-
+        <h1>Hur många versaler?</h1>
+        <asp:TextBox ID="CountUppercaseTextBox" runat="server" TextMode="MultiLine"></asp:TextBox>
+        <asp:Button ID="CountUppercaseButton" runat="server" Text="Skicka" OnClick="CountUppercaseButton_Click" />
+        <asp:Label ID="Result" runat="server">Antal versaler: </asp:Label>
     </div>
     </form>
 </body>

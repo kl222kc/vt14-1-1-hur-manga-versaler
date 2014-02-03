@@ -13,39 +13,39 @@ namespace _1_1_hur_manga_versaler {
     public partial class Default {
         
         /// <summary>
-        /// form1 control.
+        /// CountUppercaseForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm CountUppercaseForm;
         
         /// <summary>
-        /// TextBox control.
+        /// CountUppercaseTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox;
+        protected global::System.Web.UI.WebControls.TextBox CountUppercaseTextBox;
         
         /// <summary>
-        /// Label control.
+        /// CountUppercaseButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label;
+        protected global::System.Web.UI.WebControls.Button CountUppercaseButton;
         
         /// <summary>
-        /// Button control.
+        /// Result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button;
+        protected global::System.Web.UI.WebControls.Label Result;
     }
 }

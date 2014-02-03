@@ -1,0 +1,24 @@
+﻿form {
+    margin:auto;
+    margin-top: 50px;
+    width:500px;
+    background-color: #9bc4d9;
+    padding: 2px 30px 30px 30px;
+    text-align: center;
+    color: white;
+}
+
+#CountUppercaseTextBox {
+    width: 100%;
+    height: 150px;
+}
+
+#CountUppercaseButton {
+    float: right;
+    padding: 5px;
+}
+
+span#Result {
+    font-size: 22px;
+
+}
