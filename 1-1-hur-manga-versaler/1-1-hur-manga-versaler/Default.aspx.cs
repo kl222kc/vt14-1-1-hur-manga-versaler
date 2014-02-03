@@ -13,5 +13,20 @@ namespace _1_1_hur_manga_versaler
         {
 
         }
+
+        protected void Button_Click(object sender, EventArgs e)
+        {
+            string text = TextBox.Text;
+            int count = 0;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (char.IsUpper(text[i]))
+                {
+                    count++;
+                }
+            }
+            Label.Text += count.ToString();
+
+        }
     }
 }

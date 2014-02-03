@@ -9,6 +9,15 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <p>
+            <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Label ID="Label" runat="server">Antal versaler: </asp:Label>
+        </p>
+        <p>
+            <asp:Button ID="Button" runat="server" Text="Button" OnClick="Button_Click" />
+        </p>
 
     </div>
     </form>
